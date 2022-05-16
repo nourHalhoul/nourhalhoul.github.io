@@ -69,6 +69,18 @@ body {
   justify-content: center;
 }
 
+.aboutbutton:hover,
+.blogbutton:hover,
+.contactbutton:hover {
+  background: #DCDCDC;
+}
+
+.aboutbutton:active,
+.blogbutton:active,
+.contactbutton:active {
+  background: white;
+}
+
 .aboutbutton,
 .blogbutton,
 .contactbutton {
