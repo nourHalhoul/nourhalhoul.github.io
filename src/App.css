@@ -4,6 +4,39 @@ body {
   overflow: auto;
 }
 
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px;
+  box-shadow: 0 1px 3px 0 #D4D4D5, 0 0 0 1px #D4D4D5;
+}
+
+.aboutButtonHeader,
+.blogButtonHeader,
+.contactButtonHeader {
+  background-color: white;
+  border-style: none;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  margin-left: 5px;
+  margin-right: 5px;
+  box-shadow: 0 0 0 1px rgba(34, 36, 38, .15) inset;
+  border-radius: 25px;
+}
+
+.profileicon {
+  width: 50px;
+  height: 50px;
+  max-width: 100%;
+  border-radius: 50%;
+}
+
+/* App.js */
 .homepage {
   display: flex;
   flex-direction: column;
@@ -71,13 +104,19 @@ body {
 
 .aboutbutton:hover,
 .blogbutton:hover,
-.contactbutton:hover {
+.contactbutton:hover,
+.aboutButtonHeader:hover,
+.blogButtonHeader:hover,
+.contactButtonHeader:hover {
   background: #DCDCDC;
 }
 
 .aboutbutton:active,
 .blogbutton:active,
-.contactbutton:active {
+.contactbutton:active,
+.aboutButtonHeader:active,
+.blogButtonHeader:active,
+.contactButtonHeader:active {
   background: white;
 }
 
@@ -86,8 +125,6 @@ body {
 .contactbutton {
   background-color: white;
   border-style: none;
-  /* width: 50px; */
-  /* height: 50px; */
   padding-top: 10px;
   padding-bottom: 10px;
   padding-left: 20px;
@@ -98,4 +135,40 @@ body {
   margin-right: 5px;
   box-shadow: 0 0 0 1px rgba(34, 36, 38, .15) inset;
   border-radius: 5px;
+}
+
+/* Blog.jsx */
+.blogpage {
+  display: flex;
+  flex-direction: column;
+}
+
+.blogpost {
+  width: 850px;
+  max-width: 90%;
+  background: white;
+  box-shadow: 0 1px 3px 0 #D4D4D5, 0 0 0 1px #D4D4D5;
+  border-radius: 5px;
+  align-self: center;
+  margin: 20px;
+}
+
+.title {
+  display: flex;
+  justify-content: center;
+  border-bottom: 1px solid rgba(34, 36, 38, .1);
+  margin: 0;
+  padding-top: 10px;
+}
+
+.date {
+  display: flex;
+  justify-content: flex-end;
+  padding-right: 20px;
+  margin: 0;
+  padding-top: 10px;
+}
+
+.blogtext {
+  padding: 10px;
 }

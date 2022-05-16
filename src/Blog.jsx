@@ -4,7 +4,7 @@ import ProfilePic from './ProfilePic.jpg';
 import { useMediaQuery } from 'react-responsive'
 import { Link } from 'react-router-dom';
 
-function Blog()
+function Def()
 {
     const isTabletOrMobile = useMediaQuery({ maxWidth: 600 })
     const isDesktopOrLaptop = useMediaQuery({ minWidth: 601 })
@@ -29,19 +29,35 @@ function Blog()
                     <p> Languages: JavaScript | C# | HTML | CSS | SQL
                     </p>
                 </div>
+            </div>
+        </div >
+    );
+}
+
+function Blog()
+{
+    return (
+        <div className='blogpage'>
+            <div className='header'>
+                <img src={ProfilePic} alt='Profile' className='profileicon'></img>
                 <div className='buttons'>
                     <Link to='/'>
-                        <button className='aboutbutton'>About</button>
+                        <button className='aboutButtonHeader'>About</button>
                     </Link>
                     <Link to='/Blog'>
-                        <button className='blogbutton'>Blog</button>
+                        <button className='blogButtonHeader'>Blog</button>
                     </Link>
                     <Link to='/Contact'>
-                        <button className='contactbutton'>Contact</button>
+                        <button className='contactButtonHeader'>Contact</button>
                     </Link>
                 </div>
             </div>
-        </div >
+            <div className='blogpost'>
+                <h1 className='title'>Title</h1>
+                <p className='date'>Date</p>
+                <p className='blogtext'>Text..</p>
+            </div>
+        </div>
     );
 }
 
