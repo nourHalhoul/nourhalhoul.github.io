@@ -2,7 +2,7 @@ import React from 'react';
 import './App.css';
 import ProfilePic from './ProfilePic.jpg';
 import { useMediaQuery } from 'react-responsive'
-
+import { Link } from 'react-router-dom';
 
 function App()
 {
@@ -30,9 +30,15 @@ function App()
           </p>
         </div>
         <div className='buttons'>
-          <button className='aboutbutton'>About me</button>
-          <button className='blogbutton'>Blog</button>
-          <button className='contactbutton'>Contact</button>
+          <Link to='/'>
+            <button className='aboutbutton'>About</button>
+          </Link>
+          <Link to='/Blog'>
+            <button className='blogbutton'>Blog</button>
+          </Link>
+          <Link to='/Contact'>
+            <button className='contactbutton'>Contact</button>
+          </Link>
         </div>
       </div>
     </div >
