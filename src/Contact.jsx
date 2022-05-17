@@ -3,6 +3,7 @@ import './App.css';
 import ProfilePic from './ProfilePic.jpg';
 import { useMediaQuery } from 'react-responsive'
 import { Link } from 'react-router-dom';
+import { Helmet } from 'react-helmet';
 
 function Contact()
 {
@@ -11,6 +12,9 @@ function Contact()
 
     return (
         <div className='homepage'>
+            <Helmet>
+                <title>Contact | Nour H.</title>
+            </Helmet>
             <img src={ProfilePic} alt='Profile' className='profilepic'></img>
             <div className='layout'>
                 {isTabletOrMobile && <div className='badges'>
@@ -23,7 +27,7 @@ function Contact()
                     <h1>Nour H.</h1>
                 </div>
                 <div className='aboutme'>
-                    <p>About me.. About me..<br /> About me..<br /> About me..<br /> About me.. About me.. About me.. About me.. About me.. About me.. </p>
+                    <p>Contact</p>
                 </div>
                 <div className='languages'>
                     <p> Languages: JavaScript | C# | HTML | CSS | SQL

@@ -3,6 +3,7 @@ import './App.css';
 import ProfilePic from './ProfilePic.jpg';
 import { useMediaQuery } from 'react-responsive'
 import { Link } from 'react-router-dom';
+import { Helmet } from 'react-helmet';
 
 function App()
 {
@@ -11,6 +12,9 @@ function App()
 
   return (
     <div className='homepage'>
+      <Helmet>
+        <title>Home</title>
+      </Helmet>
       <img src={ProfilePic} alt='Profile' className='profilepic'></img>
       <div className='layout'>
         {isTabletOrMobile && <div className='badges'>
@@ -23,7 +27,14 @@ function App()
           <h1>Nour H.</h1>
         </div>
         <div className='aboutme'>
-          <p>About me.. About me..<br /> About me..<br /> About me..<br /> About me.. About me.. About me.. About me.. About me.. About me.. </p>
+          <p>Hi, I'm Nour. <br />I build things from scratch using letters, numbers, and special characters.
+            <br />
+            <br />I started messing around with Chrome's Devtools at the age of 11, which really peaked my interest in coding and development.
+            <br />At 13, I started messing around with linux, creating custom Android ROMs and mods, and definitely doing my school homework.
+            <br />After graduating from secondary school, I helped bring a friend's family-run shop to the digital age by building and designing their official online store; resparking my excitement for programming and development.
+            <br />Shortly afterwards, I started an <a href="https://snowvisionstudio.com/">indie game development company</a> that focused on the mobile platform. This allowed me to learn many new things through trial and error such as sprite and asset creation, targeted ad-marketing, and healthy UX/UI development.
+            <br />
+            <br />On this site, I will be documenting my progress and journey throughout my experience as an aspiring engineer.</p>
         </div>
         <div className='languages'>
           <p> Languages: JavaScript | C# | HTML | CSS | SQL
