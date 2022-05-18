@@ -27,14 +27,14 @@ function App()
           <h1>Nour H.</h1>
         </div>
         <div className='aboutme'>
-          <p>Hi, I'm Nour. <br />I build things from scratch using letters, numbers, and special characters.
+          <p>Hi, I'm Nour.
+            <br />I build things from scratch using letters, numbers, and special characters.
             <br />
-            <br />I started messing around with Chrome's Devtools at the age of 11, which really peaked my interest in coding and development.
-            <br />At 13, I started messing around with linux, creating custom Android ROMs and mods, and definitely doing my school homework.
-            <br />After graduating from secondary school, I helped bring a friend's family-run shop to the digital age by building and designing their official online store; resparking my excitement for programming and development.
-            <br />Shortly afterwards, I started an <a href="https://snowvisionstudio.com/">indie game development company</a> that focused on the mobile platform. This allowed me to learn many new things through trial and error such as sprite and asset creation, targeted ad-marketing, and healthy UX/UI development.
+            <br />I have been programming since I was 13 years old; creating custom Android ROMs and mods, and definitely doing my school homework.
+            <br />Today, I can be found learning a new language or framework, working on my next project, or working on my next game for my <a href="https://snowvisionstudio.com">indie game development company</a>.
+            <br />I love my Raspberry Pi(s), the smell of napalm in the morning, and relying on <a href="https://justgetflux.com">f.lux</a> for those late-night coding sessions.
             <br />
-            <br />On this site, I will be documenting my progress and journey throughout my experience as an aspiring engineer.</p>
+            <br />On this site, I will be documenting my progress and experience throughout my journey as an aspiring engineer.</p>
         </div>
         <div className='languages'>
           <p> Languages: JavaScript | C# | HTML | CSS | SQL

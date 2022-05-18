@@ -74,7 +74,7 @@ body {
 }
 
 .profilepic {
-  width: 200px;
+  width: 150px;
   max-width: 50%;
   border-radius: 50%;
   z-index: 2;
@@ -82,10 +82,10 @@ body {
 }
 
 .name {
-  padding-top: 55px;
+  padding-top: 60px;
   display: flex;
   justify-content: center;
-  font-size: 13px;
+  font-size: 10px;
 }
 
 .badges {
@@ -114,7 +114,7 @@ body {
 }
 
 .aboutme {
-  padding-top: 10px;
+  /* padding-top: 10px; */
   padding-bottom: 10px;
   padding-left: 15px;
   padding-right: 15px;
