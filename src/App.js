@@ -31,8 +31,8 @@ function App()
             <br />I build things from scratch using letters, numbers, and special characters.
             <br />
             <br />I have been programming since I was 13 years old; creating custom Android ROMs and mods, and definitely doing my school homework.
-            <br />Today, I can be found learning a new language or framework, working on my next project, or working on my next game for my <a href="https://snowvisionstudio.com">indie game development company</a>.
-            <br />I love my Raspberry Pi(s), the smell of napalm in the morning, and relying on <a href="https://justgetflux.com">f.lux</a> for those late-night coding sessions.
+            <br />Today, I can be found learning a new language or framework, working on my next project idea, or developing my next game for my <a href="https://snowvisionstudio.com">indie game development company</a>.
+            <br />I love my Raspberry Pi(s), full-stack development, and relying on <a href="https://justgetflux.com">f.lux</a> for those late-night coding sessions.
             <br />
             <br />On this site, I will be documenting my progress and experience throughout my journey as an aspiring engineer.</p>
         </div>
