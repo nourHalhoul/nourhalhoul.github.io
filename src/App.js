@@ -24,10 +24,11 @@ function App()
           <i class="devicon-javascript-plain colored" title="JavaScript"></i>&nbsp;<i class="devicon-csharp-plain colored" title="C#"></i>&nbsp;<i class="devicon-html5-plain colored" title="HTML"></i>&nbsp;<i class="devicon-css3-plain colored" title="CSS"></i>&nbsp;<i class="devicon-sqlite-plain colored" title="SQL"></i>
         </div>} {/*Desktop*/}
         <div className='name'>
-          <h1>Nour H.</h1>
+          <h1>Nour H. <a href="https://github.com/nourHalhoul/"><i class="devicon-github-original" title='GitHub'></i></a>
+          </h1>
         </div>
         <div className='aboutme'>
-          <p>Hi, I'm Nour.
+          <p><span className='intro'>Hi, I'm Nour.</span>
             <br />I build things from scratch using letters, numbers, and special characters.
             <br />
             <br />I have been programming since I was 13 years old; creating custom Android ROMs and mods, and definitely doing my school homework.
