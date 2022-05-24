@@ -39,8 +39,8 @@ function Contact()
                 <p className='contactme'>Do you possess the world's greatest joke and would like to share the wondrous discovery with a mere commoner?
                     <br />Here are 13 ways how.</p>
                 <div className='links'>
-                    <a href="https://github.com/nourHalhoul/"><i class="devicon-github-original-wordmark" title='GitHub'></i></a>&nbsp;
-                    <a href='https://www.linkedin.com/in/nour-h-685239131/'><i class="devicon-linkedin-plain colored" title='LinkedIn'></i></a>
+                    <a href="https://github.com/nourHalhoul/" className='i'><i class="devicon-github-original-wordmark" title='GitHub'></i></a>&nbsp;
+                    <a href='https://www.linkedin.com/in/nour-h-685239131/' className='i'><i class="devicon-linkedin-plain colored" title='LinkedIn'></i></a>
                 </div>
             </div>
         </div>
